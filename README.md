@@ -1,2 +1,3 @@
-# userscripts
-A place where all my browser userscripts live
+# Matteo's Userscripts
+
+This repository contains all of my userscripts.
