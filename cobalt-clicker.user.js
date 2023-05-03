@@ -6,8 +6,6 @@
 // @author       https://github.com/matteosandrin
 // @match        https://app3.gadeloitte.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=gadeloitte.com
-// @updateURL    https://raw.githubusercontent.com/matteosandrin/userscripts/main/cobalt-clicker.user.js
-// @downloadURL  https://raw.githubusercontent.com/matteosandrin/userscripts/main/cobalt-clicker.user.js
 // ==/UserScript==
 
 function getTextNodesIn(elem, filterFunction) {
