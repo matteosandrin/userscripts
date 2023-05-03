@@ -1,7 +1,8 @@
 # Matteo's Userscripts
 
- * **WARNING**: All the scripts in this repository contain a `@downloadURL` tag which fetches new versions of the script periodically. If you prefer to turn this feature off, remove the `@downloadURL` tag after install.
- * To run any of the scripts in this repository, please install a userscript browser extension. The one I use is [Tampermonkey](https://chromewebstore.google.com/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo). 
+**WARNING**: All the scripts in this repository contain `@downloadURL` and `@updateURL` tags that fetch new versions of the script periodically. If you prefer to turn this feature off, remove the `@downloadURL` and `@updateURL` tags after install.\
+
+To run any of the scripts in this repository, please install a userscript browser extension. The one I use is [Tampermonkey](https://chromewebstore.google.com/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo). 
 
 ## cobalt-clicker ([install](https://raw.githubusercontent.com/matteosandrin/userscripts/main/cobalt-clicker.user.js))
 

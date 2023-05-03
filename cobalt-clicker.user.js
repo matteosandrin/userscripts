@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         cobalt-clicker
 // @namespace    http://sandrin.dev
-// @version      1.0.1
+// @version      1.0.2
 // @description  When navigating to gadeloitte.com, automatically click on the button to access Cobalt
 // @author       https://github.com/matteosandrin
 // @match        https://app3.gadeloitte.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=gadeloitte.com
+// @updateURL    https://raw.githubusercontent.com/matteosandrin/userscripts/main/cobalt-clicker.user.js
 // @downloadURL  https://raw.githubusercontent.com/matteosandrin/userscripts/main/cobalt-clicker.user.js
 // ==/UserScript==
 
