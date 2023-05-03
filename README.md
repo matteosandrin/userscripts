@@ -1,6 +1,6 @@
 # Matteo's Userscripts
 
-To run any of the scripts in this repository, please install a userscript browser extension. The one I use is [Tampermonkey](https://chromewebstore.google.com/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo). 
+To run any of the scripts in this repository, you will need to install a userscript browser extension. [Tampermonkey](https://chromewebstore.google.com/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo) is the extension that I personally use and recommend.
 
 **WARNING**: The scripts in this repository include `@downloadURL` and `@updateURL` tags that enable the scripts to automatically fetch new versions periodically. However, by default, Tampermonkey is not configured to search for updates. To enable this feature, navigate to the script settings and select the "Check for updates" option.
 
