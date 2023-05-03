@@ -1,6 +1,6 @@
 # Matteo's Userscripts
 
-**WARNING**: All the scripts in this repository contain `@downloadURL` and `@updateURL` tags that fetch new versions of the script periodically. If you prefer to turn this feature off, remove the `@downloadURL` and `@updateURL` tags after install.
+**WARNING**: All the scripts in this repository contain `@downloadURL` and `@updateURL` tags that fetch new versions of the script periodically. By default Tampermonkey will not look for updates. In order to turn on this feature, go to the script settings and tick the "Check for updates" box. 
 
 To run any of the scripts in this repository, please install a userscript browser extension. The one I use is [Tampermonkey](https://chromewebstore.google.com/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo). 
 
