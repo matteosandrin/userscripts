@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         cobalt-clicker
 // @namespace    http://sandrin.dev
-// @version      1.0.3
+// @version      1.0.4
 // @description  When navigating to gadeloitte.com, automatically click on the button to access Cobalt
 // @author       https://github.com/matteosandrin
 // @match        https://app3.gadeloitte.com/*
@@ -56,16 +56,24 @@ function clickImmigrationButton() {
     if (matching_text_nodes.length > 0) {
       console.log("[3] clicking immigration button");
       button.click();
-      closeThisTab();
+      waitUntilTabLosesFocusThenClose();
       return;
     }
   }
   console.log("[5] ERROR: could not find button to click");
 }
 
+function waitUntilTabLosesFocusThenClose() {
+  if (document.hasFocus()) {
+    setTimeout(waitUntilTabLosesFocusThenClose, 200);
+    return;
+  }
+  closeThisTab();
+}
+
 function closeThisTab() {
   console.log("[4] closing this tab");
-  setTimeout(window.close, 200);
+  window.close();
 }
 
 (function () {
